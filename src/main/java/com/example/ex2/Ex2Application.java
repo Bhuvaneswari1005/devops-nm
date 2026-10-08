@@ -15,7 +15,7 @@ public class Ex2Application {
 
 	@GetMapping("/")
 	public String home() {
-		return "Hello from DevOps Demo App!";
+		return "Hello from DevOps Demo App!"; //remote change
 	}
 
 	@GetMapping("/status")
